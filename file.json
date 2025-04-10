@@ -1,0 +1,10 @@
+{
+    "name": "Tony",
+    "age": 20,
+    "enrollement": true,
+    "courses": [
+        "JavaScript Fundamentals",
+        "Web Development",
+        "Problem Solving & Algorithms"
+    ]
+}
