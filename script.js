@@ -45,6 +45,7 @@ let [score1, score2] = scores;
 console.log("First 2 scores:");
 console.log(score1, score2);
 
+console.log("----------------------------");
 
 //Part 4: The Spread Operator
 let student2 = { ...student };
@@ -53,3 +54,15 @@ student2.graduationYear = 2026;
 
 console.log("The cloned object with the new property:");
 console.log(student2);
+
+console.log("The original object:");
+console.log(student);
+
+let courses2 = ["Database", "Operating Systems"];
+let allCourses = [...student.courses, ...courses2];
+
+console.log("Merged Courses:");
+console.log(allCourses);
+
+
+//Part 5: Object Methods
