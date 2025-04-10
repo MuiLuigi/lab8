@@ -40,3 +40,7 @@ console.log("Courses:");
 console.log(courses);
 
 let scores = [85, 92, 78, 90];
+let [score1, score2] = scores;
+
+console.log("Frist 2 scores:");
+console.log(score1, score2);
