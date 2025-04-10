@@ -19,6 +19,7 @@ student.message();
 
 console.log("------------------------");
 
+
 //Part 2: Working with JSON
 let jsonString = JSON.stringify(student);
 console.log(jsonString);
@@ -28,3 +29,14 @@ console.log("New Object:");
 console.log(jsonObj);
 
 console.log("Comaparison:", JSON.stringify(student) === JSON.stringify(jsonObj));
+
+console.log("------------------------");
+
+
+//Part 3: Using Destructuring Assignment
+let { name, courses } = student;
+console.log("Name:", name);
+console.log("Courses:");
+console.log(courses);
+
+let scores = [85, 92, 78, 90];
