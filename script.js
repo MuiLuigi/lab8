@@ -17,5 +17,14 @@ console.log(student.name);
 console.log(student.age);
 student.message();
 
+console.log("------------------------");
 
 //Part 2: Working with JSON
+let jsonString = JSON.stringify(student);
+console.log(jsonString);
+
+let jsonObj = JSON.parse(jsonString);
+console.log("New Object:");
+console.log(jsonObj);
+
+console.log("Comaparison:", JSON.stringify(student) === JSON.stringify(jsonObj));
