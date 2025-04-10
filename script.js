@@ -11,6 +11,13 @@ let student = {
     //Method
     message: function() {
         console.log(`${this.name}, who is ${this.age} years old attends at Humber College.`);
+    },
+    addCourse: function(newCourse) {
+        this.courses.push(newCourse);
+        console.log(`The course ${newCourse} has been added`);
+    },
+    total: function() {
+        console.log(`The length of the courses array is: ${this.courses.length}.`);
     }
 };
 console.log(student.name);
@@ -64,5 +71,10 @@ let allCourses = [...student.courses, ...courses2];
 console.log("Merged Courses:");
 console.log(allCourses);
 
+console.log("--------------------");
 
 //Part 5: Object Methods
+student.addCourse("Database");
+console.log("The updated courses array from the student object:")
+console.log(student.courses);
+student.total();
