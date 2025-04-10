@@ -73,6 +73,7 @@ console.log(allCourses);
 
 console.log("--------------------");
 
+
 //Part 5: Object Methods
 student.addCourse("Database");
 console.log("The updated courses array from the student object:")
