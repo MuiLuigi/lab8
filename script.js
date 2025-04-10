@@ -1,14 +1,19 @@
 //Part 1: Creating Objects
-let person2 = {
+let student = {
     name: "Tony",
     age: 20,
     enrollement: true,
-    address: {
-        city: "Chicago",
-        street: "1060 W Addison St"
-    },
+    courses: [
+        "JavaScript Fundamentals",
+        "Web Development",
+        "Problem Solving & Algorithms"
+    ],
     //Method
-    message: function(name, age) {
-        console.log(`${this.name}, who is ${this.age} attends at Humber College.`);
+    message: function() {
+        console.log(`${this.name}, who is ${this.age} years old attends at Humber College.`);
     }
 };
+console.log(student.name);
+console.log(student.age);
+console.log(student.enrollement);
+student.message();
