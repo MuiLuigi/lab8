@@ -16,3 +16,6 @@ let student = {
 console.log(student.name);
 console.log(student.age);
 student.message();
+
+
+//Part 2: Working with JSON
